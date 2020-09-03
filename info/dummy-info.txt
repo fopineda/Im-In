@@ -1,0 +1,3 @@
+This is a placeholder .txt file for the info folder.
+
+Once you run the learn-all-info.sh script, this folder will be populated with info .txt files.
