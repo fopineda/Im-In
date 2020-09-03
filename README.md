@@ -9,7 +9,7 @@ Also, a friendly reminder that you should not attempt to use these files on any 
 ## Installation
 1. Clone or download project
     ```bash
-    git clone <enter URL>
+    git clone https://github.com/fopineda/Im-In.git
     ```
 That's all...
 
