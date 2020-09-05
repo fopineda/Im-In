@@ -2,6 +2,7 @@
 
 echo "USER-INFO" > ../info/user-info.txt
 
+
 echo "------- w ------" >> ../info/user-info.txt
 w >> ../info/user-info.txt
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 
-
 echo "PROCESS-INFO" > ../info/process-info.txt
+
 
 echo "------- ps aux ------" >> ../info/process-info.txt
 ps aux >> ../info/process-info.txt

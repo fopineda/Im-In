@@ -2,6 +2,7 @@
 
 echo "NETWORK-INFO" > ../info/network-info.txt
 
+
 # only if iptables is used
 echo "------- ifconfig ------" >> ../info/network-info.txt
 ifconfig >> ../info/network-info.txt

@@ -21,13 +21,15 @@ That's all...
     ```
 2. chmod the learn-all-info.sh file
     ```bash
-    chmod 755 learn-all-info.sh
+    chmod 777 learn-all-info.sh
     ```
 3. run the learn-all-info.sh file (chmoding and running all other files)
     ```bash
     ./learn-all-info.sh
     ```
 4. Look into the Im-In/info folder and you will see multiple .txt files that are associated to each info bash script that was ran. Be advised, some commands may not work (see help section). You can suspect that it did not work if output was displayed on your terminal or if nothing is showing for the respective .txt file or section of the .txt file.
+
+Note: I recommend going into Im-In/scripts/learn-all-info.sh file and modifying the chmod to run a different permission number. It's not good to give everyone (owner, group, others) read/write/executable permissions. I am doing it here because its code that is moved from a system to another. It may not work on a new system if a given root from another system is the only user that can execute the scripts.
 
 ## Help 
 Some commands within the scripts may or may not work. That could be for multiple reasons:

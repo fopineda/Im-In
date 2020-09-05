@@ -1,7 +1,7 @@
 #!/bin/bash
 
-
 echo "SYSTEM-INFO" > ../info/system-info.txt
+
 
 echo "------- uname -a ------" >> ../info/system-info.txt
 uname -a >> ../info/system-info.txt

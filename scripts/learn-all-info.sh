@@ -8,18 +8,22 @@
     # some commands may not be installed or functioning properly
 
 # call system-info script
-chmod 755 system-info.sh 
+chmod 777 system-info.sh 
 ./system-info.sh
 
 # call network-info script
-chmod 755 network-info.sh
+chmod 777 network-info.sh
 ./network-info.sh
 
 # call process-info script
-chmod 755 process-info.sh
-chmod 755 helpers/users-crontab.sh
+chmod 777 process-info.sh
+chmod 777 helpers/users-crontab.sh
 ./process-info.sh
 
 # call user-info script
-chmod 755 user-info.sh 
+chmod 777 user-info.sh 
 ./user-info.sh
+
+# call system-startup-info script
+chmod 777 system-startup-info.sh
+./system-startup-info.sh
